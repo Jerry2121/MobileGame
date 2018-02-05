@@ -3,12 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuScript : MonoBehaviour {
+public class Lose : MonoBehaviour {
 
-    public void Play()
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+    public void Retry()
     {
-        SceneManager.LoadScene("Lvl1");
-        if(PlayerPrefs.GetInt("Difficulty") == 1)
+        SceneManager.LoadScene("lvl1");
+        if (PlayerPrefs.GetInt("Difficulty") == 1)
         {
             PlayerPrefs.SetInt("Health", 10);
             PlayerPrefs.SetInt("Lives", 5);
@@ -24,12 +33,8 @@ public class MainMenuScript : MonoBehaviour {
             PlayerPrefs.SetInt("Lives", 1);
         }
     }
-    public void Difficulty()
+    public void MainMenu()
     {
-        SceneManager.LoadScene("MainMenu#2");
-    }
-    public void Quit()
-    {
-        Application.Quit();
+        SceneManager.LoadScene("MainMenu");
     }
 }
