@@ -57,4 +57,8 @@ public class pausemenu : MonoBehaviour {
     {
         DifficultyCanvas.GetComponent<Canvas>().enabled = false;
     }
+    public void Retry()
+    {
+
+    }
 }
