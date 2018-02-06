@@ -18,6 +18,7 @@ public class WATEVERIWANt : MonoBehaviour {
         Fruit fruit2 = new Fruit("Orange", "tangy", "pink", 20);
 
         Fruit fruit3 = new Fruit();
+        myFruit.Chop();
 
 		
 	}
@@ -45,5 +46,9 @@ public class Fruit
     {
 
 
+    }
+    public void Chop()
+    {
+        Debug.Log("the" + color +"" + name + "has been chopped");  
     }
 }
