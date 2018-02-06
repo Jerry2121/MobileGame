@@ -11,7 +11,11 @@ AnimatorController:
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
+<<<<<<< HEAD
+    m_StateMachine: {fileID: 1107590289573992908}
+=======
     m_StateMachine: {fileID: 1107028874559452562}
+>>>>>>> 5ee65c52c635bfd28955a92b31eb1f8d038c9a4f
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -21,13 +25,21 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
+--- !u!1102 &1102423925647001456
+=======
 --- !u!1102 &1102550790039841038
+>>>>>>> 5ee65c52c635bfd28955a92b31eb1f8d038c9a4f
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
+  m_Name: fire
+=======
   m_Name: Fire
+>>>>>>> 5ee65c52c635bfd28955a92b31eb1f8d038c9a4f
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -40,13 +52,21 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< HEAD
+  m_Motion: {fileID: 7400000, guid: 3658c90eea80c384b9e41f89b74952ac, type: 2}
+=======
   m_Motion: {fileID: 7400000, guid: de394da518cdd314b930d6a7ce230dd9, type: 2}
+>>>>>>> 5ee65c52c635bfd28955a92b31eb1f8d038c9a4f
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< HEAD
+--- !u!1107 &1107590289573992908
+=======
 --- !u!1107 &1107028874559452562
+>>>>>>> 5ee65c52c635bfd28955a92b31eb1f8d038c9a4f
 AnimatorStateMachine:
   serializedVersion: 5
   m_ObjectHideFlags: 1
@@ -55,7 +75,11 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
+<<<<<<< HEAD
+    m_State: {fileID: 1102423925647001456}
+=======
     m_State: {fileID: 1102550790039841038}
+>>>>>>> 5ee65c52c635bfd28955a92b31eb1f8d038c9a4f
     m_Position: {x: 200, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -66,4 +90,8 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+<<<<<<< HEAD
+  m_DefaultState: {fileID: 1102423925647001456}
+=======
   m_DefaultState: {fileID: 1102550790039841038}
+>>>>>>> 5ee65c52c635bfd28955a92b31eb1f8d038c9a4f
