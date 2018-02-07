@@ -7,6 +7,7 @@ TagManager:
   - Kill
   - Win
   - Obstical
+  - Coin
   layers:
   - Default
   - TransparentFX
