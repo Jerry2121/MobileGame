@@ -1,15 +1,21 @@
 fileFormatVersion: 2
-guid: 43a4e019dacd28046921c73cbe89ae74
-timeCreated: 1517588755
+guid: 1b30ebd6a8cfd714f8daaeaa36f267ec
+timeCreated: 1518019696
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fire_0
-    21300002: fire_1
-    21300004: fire_2
-    21300006: fire_3
-    21300008: fire_4
-    21300010: fire_5
+    21300000: back ground houses_0
+    21300002: back ground houses_1
+    21300004: back ground houses_2
+    21300006: back ground houses_3
+    21300008: back ground houses_4
+    21300010: back ground houses_5
+    21300012: back ground houses_6
+    21300014: back ground houses_7
+    21300016: back ground houses_8
+    21300018: back ground houses_9
+    21300020: back ground houses_10
+    21300022: back ground houses_11
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -47,7 +53,6 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,9 +77,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
   - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -88,13 +90,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fire_0
+      name: back ground houses_0
       rect:
         serializedVersion: 2
-        x: 1146
-        y: 7193
-        width: 1163
-        height: 1228
+        x: 0
+        y: 7200
+        width: 2400
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,13 +104,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_1
+      name: back ground houses_1
       rect:
         serializedVersion: 2
-        x: 4344
-        y: 7193
-        width: 1135
-        height: 1101
+        x: 2400
+        y: 7200
+        width: 2400
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,13 +118,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_2
+      name: back ground houses_2
       rect:
         serializedVersion: 2
-        x: 1146
-        y: 3994
-        width: 1261
-        height: 1066
+        x: 4800
+        y: 7200
+        width: 2400
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,13 +132,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_3
+      name: back ground houses_3
       rect:
         serializedVersion: 2
-        x: 4344
-        y: 3994
-        width: 1167
-        height: 1230
+        x: 0
+        y: 4800
+        width: 2400
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,13 +146,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_4
+      name: back ground houses_4
       rect:
         serializedVersion: 2
-        x: 1146
-        y: 795
-        width: 1355
-        height: 1293
+        x: 2400
+        y: 4800
+        width: 2400
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,13 +160,97 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_5
+      name: back ground houses_5
       rect:
         serializedVersion: 2
-        x: 4344
-        y: 795
-        width: 1228
-        height: 1162
+        x: 4800
+        y: 4800
+        width: 2400
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: back ground houses_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 2400
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: back ground houses_7
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 2400
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: back ground houses_8
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 2400
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: back ground houses_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2400
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: back ground houses_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 2400
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: back ground houses_11
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 2400
+        height: 2400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

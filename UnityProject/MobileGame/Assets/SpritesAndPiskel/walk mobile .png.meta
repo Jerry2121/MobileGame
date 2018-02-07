@@ -1,15 +1,17 @@
 fileFormatVersion: 2
-guid: 43a4e019dacd28046921c73cbe89ae74
-timeCreated: 1517588755
+guid: 84309e77df62c7a41801df4a47c70932
+timeCreated: 1517589315
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fire_0
-    21300002: fire_1
-    21300004: fire_2
-    21300006: fire_3
-    21300008: fire_4
-    21300010: fire_5
+    21300000: walk mobile _0
+    21300002: walk mobile _1
+    21300004: walk mobile _2
+    21300006: walk mobile _3
+    21300008: walk mobile _4
+    21300010: walk mobile _5
+    21300012: walk mobile _6
+    21300014: walk mobile _7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -47,7 +49,6 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,9 +73,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
+    androidETC2FallbackOverride: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -84,17 +83,18 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fire_0
+      name: walk mobile _0
       rect:
         serializedVersion: 2
-        x: 1146
-        y: 7193
-        width: 1163
-        height: 1228
+        x: 0
+        y: 6400
+        width: 3200
+        height: 3200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,13 +102,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_1
+      name: walk mobile _1
       rect:
         serializedVersion: 2
-        x: 4344
-        y: 7193
-        width: 1135
-        height: 1101
+        x: 3200
+        y: 6400
+        width: 3200
+        height: 3200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,13 +116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_2
+      name: walk mobile _2
       rect:
         serializedVersion: 2
-        x: 1146
-        y: 3994
-        width: 1261
-        height: 1066
+        x: 6400
+        y: 6400
+        width: 3200
+        height: 3200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,13 +130,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_3
+      name: walk mobile _3
       rect:
         serializedVersion: 2
-        x: 4344
-        y: 3994
-        width: 1167
-        height: 1230
+        x: 0
+        y: 3200
+        width: 3200
+        height: 3200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,13 +144,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_4
+      name: walk mobile _4
       rect:
         serializedVersion: 2
-        x: 1146
-        y: 795
-        width: 1355
-        height: 1293
+        x: 3200
+        y: 3200
+        width: 3200
+        height: 3200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,13 +158,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fire_5
+      name: walk mobile _5
       rect:
         serializedVersion: 2
-        x: 4344
-        y: 795
-        width: 1228
-        height: 1162
+        x: 6389
+        y: 3200
+        width: 3200
+        height: 3200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk mobile _6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3200
+        height: 3200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk mobile _7
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 3200
+        height: 3200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

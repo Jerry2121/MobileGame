@@ -19,19 +19,27 @@ public class killswitch : MonoBehaviour {
             if (PlayerPrefs.GetInt("Difficulty") == 1)
             {
                 PlayerPrefs.SetInt("Health", 10);
+                PlayerPrefs.SetInt("Coins", 0);
             }
             if (PlayerPrefs.GetInt("Difficulty") == 2)
             {
                 PlayerPrefs.SetInt("Health", 5);
+                PlayerPrefs.SetInt("Coins", 0);
             }
             if (PlayerPrefs.GetInt("Difficulty") == 3)
             {
                 PlayerPrefs.SetInt("Health", 1);
+                PlayerPrefs.SetInt("Coins", 0);
             }
         }
         if(PlayerPrefs.GetInt("Lives") <= 0)
         {
             SceneManager.LoadScene("Lose");
+        }
+        if(PlayerPrefs.GetInt("Coins") >= 10)
+        {
+            PlayerPrefs.SetInt("Lives", PlayerPrefs.GetInt("Lives") + 1);
+            PlayerPrefs.SetInt("Coins", 0);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -42,14 +50,17 @@ public class killswitch : MonoBehaviour {
             if (PlayerPrefs.GetInt("Difficulty") == 1)
             {
                 PlayerPrefs.SetInt("Health", 10);
+                PlayerPrefs.SetInt("Coins", 0);
             }
             if (PlayerPrefs.GetInt("Difficulty") == 2)
             {
                 PlayerPrefs.SetInt("Health", 5);
+                PlayerPrefs.SetInt("Coins", 0);
             }
             if (PlayerPrefs.GetInt("Difficulty") == 3)
             {
                 PlayerPrefs.SetInt("Health", 1);
+                PlayerPrefs.SetInt("Coins", 0);
             }
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
