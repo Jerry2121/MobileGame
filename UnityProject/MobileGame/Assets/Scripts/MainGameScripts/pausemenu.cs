@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class pausemenu : MonoBehaviour {
     private bool paused;
     public GameObject DifficultyCanvas;
+    public GameObject PauseCanvas;
     // Use this for initialization
     void Start()
     {
@@ -57,8 +58,10 @@ public class pausemenu : MonoBehaviour {
     {
         DifficultyCanvas.GetComponent<Canvas>().enabled = false;
     }
-    public void Retry()
+    public void PauseButton()
     {
-
+        paused = true;
+        Time.timeScale = 0;
+        PauseCanvas.GetComponent<Canvas>().enabled = true;
     }
 }
