@@ -8,6 +8,7 @@ TagManager:
   - Win
   - Obstical
   - Coin
+  - Heart
   layers:
   - Default
   - TransparentFX

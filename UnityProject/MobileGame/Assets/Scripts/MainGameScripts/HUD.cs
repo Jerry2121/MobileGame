@@ -25,5 +25,10 @@ public class HUD : MonoBehaviour {
             PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") + 1);
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.tag == "Heart")
+        {
+            PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") + 2);
+            Destroy(collision.gameObject);
+        }
     }
 }
