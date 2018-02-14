@@ -9,6 +9,7 @@ TagManager:
   - Obstical
   - Coin
   - Heart
+  - LvlBeat
   layers:
   - Default
   - TransparentFX
