@@ -32,11 +32,12 @@ public class killswitch : MonoBehaviour {
                 PlayerPrefs.SetInt("Coins", 0);
             }
         }
+    
         if(PlayerPrefs.GetInt("Lives") <= 0)
         {
             SceneManager.LoadScene("Lose");
         }
-        if(PlayerPrefs.GetInt("Coins") >= 10)
+        if (PlayerPrefs.GetInt("Coins") >= 10)
         {
             PlayerPrefs.SetInt("Lives", PlayerPrefs.GetInt("Lives") + 1);
             PlayerPrefs.SetInt("Coins", 0);
