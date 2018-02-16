@@ -19,6 +19,7 @@ public class LevelChange : MonoBehaviour {
         if(collision.gameObject.tag == "LvlBeat")
         {
             PlayerPrefs.SetInt("Lvlnum", PlayerPrefs.GetInt("Lvlnum") + 1);
+            //if its Level 1 and depending on the difficulty level, it changes to its difficulty level so if im playing on normal, it will load lvl 2 normal.
             if (PlayerPrefs.GetInt("Lvlnum") == 1 && PlayerPrefs.GetInt("Difficulty") == 1)
             {
                 SceneManager.LoadScene("Lvl1Beginner");
@@ -31,6 +32,7 @@ public class LevelChange : MonoBehaviour {
             {
                 SceneManager.LoadScene("Lvl1 Insane");
             }
+            //if its Level 2 and depending on the difficulty level, it changes to its difficulty level so if im playing on normal, it will load lvl 3 normal.
             if (PlayerPrefs.GetInt("Lvlnum") == 2 && PlayerPrefs.GetInt("Difficulty") == 1)
             {
                 SceneManager.LoadScene("Lvl2");
@@ -42,6 +44,19 @@ public class LevelChange : MonoBehaviour {
             if (PlayerPrefs.GetInt("Lvlnum") == 2 && PlayerPrefs.GetInt("Difficulty") == 3)
             {
                 SceneManager.LoadScene("Lvl2 Insane");
+            }
+            //if its Level 3 and I beat the level, it will send you to the win screen.
+            if (PlayerPrefs.GetInt("Lvlnum") == 3 && PlayerPrefs.GetInt("Difficulty") == 1)
+            {
+                SceneManager.LoadScene("Win");
+            }
+            if (PlayerPrefs.GetInt("Lvlnum") == 3 && PlayerPrefs.GetInt("Difficulty") == 2)
+            {
+                SceneManager.LoadScene("Win");
+            }
+            if (PlayerPrefs.GetInt("Lvlnum") == 3 && PlayerPrefs.GetInt("Difficulty") == 3)
+            {
+                SceneManager.LoadScene("Win");
             }
         }
     }
