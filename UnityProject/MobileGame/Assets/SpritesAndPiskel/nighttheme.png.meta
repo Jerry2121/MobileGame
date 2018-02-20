@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: b586ac284711524418f9b032432c3954
-timeCreated: 1519146332
+guid: 30dac3bf70b540b4fa4cad9dde200d91
+timeCreated: 1519145401
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: clouds_0
-    21300002: clouds_1
+    21300000: nighttheme_0
+    21300002: nighttheme_1
+    21300004: nighttheme_2
+    21300006: nighttheme_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -92,13 +94,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clouds_0
+      name: nighttheme_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 8192
-        width: 9600
-        height: 8192
+        y: 3200
+        width: 3200
+        height: 3200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,13 +108,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: clouds_1
+      name: nighttheme_1
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3200
+        width: 3200
+        height: 3200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nighttheme_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 9600
-        height: 8192
+        width: 3200
+        height: 3200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nighttheme_3
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 3200
+        height: 3200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
