@@ -48,15 +48,32 @@ public class LevelChange : MonoBehaviour {
             //if its Level 3 and I beat the level, it will send you to the win screen.
             if (PlayerPrefs.GetInt("Lvlnum") == 3 && PlayerPrefs.GetInt("Difficulty") == 1)
             {
-                SceneManager.LoadScene("Win");
+                SceneManager.LoadScene("Lvl 3 beginner");
             }
             if (PlayerPrefs.GetInt("Lvlnum") == 3 && PlayerPrefs.GetInt("Difficulty") == 2)
             {
-                SceneManager.LoadScene("Win");
+                SceneManager.LoadScene("Lvl3");
             }
             if (PlayerPrefs.GetInt("Lvlnum") == 3 && PlayerPrefs.GetInt("Difficulty") == 3)
             {
+                SceneManager.LoadScene("Lvl3 insane.unity");
+            }
+            //blah
+            if (PlayerPrefs.GetInt("Lvlnum") == 4 && PlayerPrefs.GetInt("Difficulty") == 1)
+            {
                 SceneManager.LoadScene("Win");
+                PlayerPrefs.SetInt("AnyDiffBeat", 1);
+            }
+            if (PlayerPrefs.GetInt("Lvlnum") == 4 && PlayerPrefs.GetInt("Difficulty") == 2)
+            {
+                SceneManager.LoadScene("Win");
+                PlayerPrefs.SetInt("AnyDiffBeat", 1);
+            }
+            if (PlayerPrefs.GetInt("Lvlnum") == 4 && PlayerPrefs.GetInt("Difficulty") == 3)
+            {
+                SceneManager.LoadScene("Win");
+                PlayerPrefs.SetInt("AnyDiffBeat", 1);
+                PlayerPrefs.SetInt("InsaneBeat", 1);
             }
         }
     }
