@@ -4,7 +4,24 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour {
-
+    public GameObject StarCanvas;
+    public GameObject GarnetCanvas;
+    public GameObject BannanaCanvas;
+    void Update()
+    {
+        if(PlayerPrefs.GetInt("InsaneBeat") == 1)
+        {
+            StarCanvas.GetComponent<Canvas>().enabled = true;
+        }
+        if (PlayerPrefs.GetInt("SecretHit") == 1)
+        {
+            GarnetCanvas.GetComponent<Canvas>().enabled = true;
+        }
+        if (PlayerPrefs.GetInt("AnyDiffBeat") == 1)
+        {
+            BannanaCanvas.GetComponent<Canvas>().enabled = true;
+        }
+    }
     public void Play()
     {
         SceneManager.LoadScene("Lvl1Beginner");
@@ -31,6 +48,15 @@ public class MainMenuScript : MonoBehaviour {
     public void Difficulty()
     {
         SceneManager.LoadScene("MainMenu#2");
+    }
+    public void Reset()
+    {
+        PlayerPrefs.SetInt("InsaneBeat", 0);
+        PlayerPrefs.SetInt("SecretHit", 0);
+        PlayerPrefs.SetInt("AnyDiffBeat", 0);
+        StarCanvas.GetComponent<Canvas>().enabled = false;
+        GarnetCanvas.GetComponent<Canvas>().enabled = false;
+        BannanaCanvas.GetComponent<Canvas>().enabled = false;
     }
     public void Quit()
     {

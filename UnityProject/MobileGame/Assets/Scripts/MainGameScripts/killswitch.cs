@@ -69,6 +69,11 @@ public class killswitch : MonoBehaviour {
         {
             PlayerPrefs.SetInt("Health", PlayerPrefs.GetInt("Health") - 2);
         }
+        if (collision.gameObject.tag == "Secretbut")
+        {
+            PlayerPrefs.SetInt("SecretHit", 1);
+            Destroy(collision.gameObject);
+        }
     }
     
 }
