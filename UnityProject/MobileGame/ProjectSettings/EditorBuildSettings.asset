@@ -30,13 +30,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Lvl2/Lvl2 Insane.unity
     guid: a9df3fb1c707de747bd4b8fff9172fe9
   - enabled: 1
-    path: Assets/Scenes/Lvl 3 beginner.unity
+    path: Assets/Scenes/Lvl3/Lvl 3 beginner.unity
     guid: 21f1db602715e5f469ae9ea6292b19f3
   - enabled: 1
-    path: Assets/Scenes/Lvl3.unity
+    path: Assets/Scenes/Lvl3/Lvl3.unity
     guid: 44e440a56265dc249bf8fa7dc2feabcc
   - enabled: 1
-    path: Assets/Scenes/Lvl3 insane.unity
+    path: Assets/Scenes/Lvl3/Lvl3 insane.unity
     guid: 1e247b00e3e3d7f4e9abb8ce62d0240e
   - enabled: 1
     path: Assets/Scenes/Win.unity
