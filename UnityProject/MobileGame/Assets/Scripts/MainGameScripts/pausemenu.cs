@@ -15,7 +15,7 @@ public class pausemenu : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(PlayerPrefs.GetInt("Lvlnum"));
+        //Debug.Log(PlayerPrefs.GetInt("Lvlnum"));
     }
     public void Resume()
     {
